@@ -3,6 +3,12 @@ from tkinter import messagebox
 
 
 '''
+Names:
+Augustine 
+Katherine
+Wynter
+Summer
+
 how to tkinter
 https://pythonprogramming.net/python-3-tkinter-basics-tutorial/
 
@@ -31,10 +37,10 @@ class Window(Frame):
 
         # placing the button on my window
         middleY = Window.winfo_height(self) * 0.5
-        middleX = Window.winfo_width(self) * 0.5 
+        middleX = Window.winfo_width(self) 
         print(middleX, middleY)
-        student.place(x = middleX, y = middleY + 100)
-        teacher.place(x = middleX, y = middleY - 100)
+        student.place(x = middleX + 100, y = middleY + 100)
+        teacher.place(x = middleX + 100, y = middleY + 200)
 
 root = Tk()
 
